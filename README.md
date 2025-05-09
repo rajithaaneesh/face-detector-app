@@ -20,7 +20,7 @@ A React-based application that uses a webcam to detect faces and display facial 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rajithaaneesh/face-detection-app.git
+   git clone https://github.com/rajithaaneesh/face-detector-app.git
    cd face-detection-app
 
 2. Install dependencies:
