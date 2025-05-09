@@ -1,0 +1,135 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.face-app-container {
+    position: relative;
+    width: 560px;
+    min-height: 400px;
+    display: flex;;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-height: 100%;
+    padding: 10px;
+    border: 1px dotted green;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Added box shadow */
+}
+
+.face-app-container button {
+  max-height: fit-content;
+}
+
+.face-app-container video {
+    border: 5px solid green; /* Highlighted border color */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2), inset 0 -4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+    background-color: #ccc;
+}
+
+.face-app-container video:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.22); /* Enhanced shadow on hover */
+}
+
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.app-title img {
+    max-width: 70px;
+    position: relative;
+    top: 5px;
+}
+
+.face-app-container button img {
+    max-width: 40px;
+    padding-right: 20px;
+    top: 0;
+}
+
+.camera-toggle-btn {
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
