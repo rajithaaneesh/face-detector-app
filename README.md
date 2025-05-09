@@ -34,10 +34,15 @@ Open the app in your browser at http://localhost:3000.
 File Structure:
   src/
   ├── assets/                # Static assets (e.g., icons, images)
+  
   ├── components/
+  
   │   ├── [FaceDetection.jsx](http://_vscodecontentref_/0)  # Main face detection component
+  
   ├── index.css              # Global styles
+  
   ├── App.jsx                # Root component
+  
   ├── main.jsx               # Entry point
 
 
