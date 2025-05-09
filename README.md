@@ -42,10 +42,10 @@ File Structure:
 
 
 How It Works
-  **Model Loading**: The app loads pre-trained models for face detection and expression recognition from the /models directory.
-  **Webcam Integration**: The Webcam component captures live video input.
-  **Face Detection**: The app uses face-api.js to detect faces and draw bounding boxes and expressions on a canvas overlay.
-  **Camera Toggle**: Users can turn the camera on or off using a button.
+  1. **Model Loading**: The app loads pre-trained models for face detection and expression recognition from the /models directory.
+  2. **Webcam Integration**: The Webcam component captures live video input.
+  3. **Face Detection**: The app uses face-api.js to detect faces and draw bounding boxes and expressions on a canvas overlay.
+  4. **Camera Toggle**: Users can turn the camera on or off using a button.
 
 Usage
   1. Start the app and allow access to your webcam.
